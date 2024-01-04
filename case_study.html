@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+
+      <!-- PAGE TITLE -->
+      <title>Finvest Case Study</title>
+      
+      <!-- META-DATA -->
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      
+      <meta name="description" content="" >
+      <meta name="keywords" content="" >
+
+      <!-- CSS:: FONTS -->
+      <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!-- CSS:: BOOTSTRAP -->	
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+      <!-- CSS:: ANIMATION -->  
+      <link rel="stylesheet" href="assets/css/animate.css">      
+
+      <!-- CSS:: OWL -->  
+      <link rel="stylesheet" href="assets/css/owl.carousel.css">
+
+      <!-- CSS:: -->
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/main_one.css"> 
+      <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+      <link rel="stylesheet" type="text/css" id="f-theme_roller" href="assets/css/new_york/color_01.css"> 
+      
+ </head>
+ <body>     
+ <div data-template="2" class="f-wrapper  f-inner_page"> 
+  <div class="f-loading" id="f-loading">
+    <img src="assets/images/loading_01.gif" alt="">
+  </div>
+  <div id="f-customizer" class="f-customizer">
+    <div class="f-custom_block clearfix">
+       <span>Demo</span>
+        <div class="f-demo_switcher">
+          <div class="f-selected_demo" id="f-selected_demo">
+            <span>New York</span>
+          </div>
+          <ul class="f-dropdown_demo" id="f-dropdown_demo"> 
+            <li data-value="1" data-src="london/index.html">London</li>
+            <li data-value="2" data-src="">New York</li>
+            <li data-value="3" data-src="zurich/index.html">Zurich</li>
+            <li data-value="4" data-src="toronto/index.html">Toronto</li>
+            <li data-value="5" data-src="mumbai/index.html">Mumbai</li>
+            <li data-value="6" data-src="paris/index.html">Paris</li> 
+          </ul>
+        </div>
+       <div class="f-demo_view">
+         <img src="assets/images/demo_view_01.jpg" alt="">
+       </div>
+    </div>
+    <div class="f-custom_block clearfix">
+       <span>Header Styles</span>
+        <div class="f-demo_switcher">
+          <div class="f-selected_demo" id="f-header_demo">
+            <span>Header Two</span>
+          </div>
+          <ul class="f-dropdown_demo" id="f-header_dropdown"> 
+            <li data-value="1" data-src="london/index.html">Header One</li>
+            <li data-value="2" data-src="">Header Two</li>
+            <li data-value="3" data-src="zurich/index.html">Header Three</li>
+            <li data-value="4" data-src="toronto/index.html">Header Four</li>
+            <li data-value="5" data-src="mumbai/index.html">Header Five</li>
+            <li data-value="6" data-src="paris/index.html">Header Six</li> 
+          </ul>
+        </div> 
+    </div>
+    <div class="f-custom_block">
+      <span>Color Skin</span>
+      <ul class="f-color_skins">
+        <li><img src="assets/images/skin_01.jpg" data-theme="new_york" data-attr="color_01" alt=""></li>
+        <li><img src="assets/images/skin_02.jpg" data-theme="new_york" data-attr="color_02" class="f-active_skin" alt=""></li>
+        <li><img src="assets/images/skin_03.jpg" data-theme="new_york" data-attr="color_03" alt=""></li>
+        <li><img src="assets/images/skin_04.jpg" data-theme="new_york" data-attr="color_04" alt=""></li>
+        <li><img src="assets/images/skin_05.jpg" data-theme="new_york" data-attr="color_05" alt=""></li>
+        <li><img src="assets/images/skin_06.jpg" data-theme="new_york" data-attr="color_06" alt=""></li>
+      </ul>
+    </div>  
+    <div class="f-custom_block">
+      <span>Boxed Layout</span>
+      <label class="switch">
+        <input type="checkbox" class="f-layout">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="f-custom_block f-bg_img">
+      <span>Background Image</span>
+      <ul class="f-layout_option">
+        <li><img src="assets/images/layout_01.jpg" data-attr="layout_01" alt=""></li>
+        <li><img src="assets/images/layout_02.jpg" data-attr="layout_02" alt=""></li>
+        <li><img src="assets/images/layout_03.jpg" data-attr="layout_03" alt=""></li>
+        <li><img src="assets/images/layout_04.jpg" data-attr="layout_04" alt=""></li>
+        <li><img src="assets/images/layout_05.jpg" data-attr="layout_05" alt=""></li>
+        <li><img src="assets/images/layout_06.jpg" data-attr="layout_06" alt=""></li>
+      </ul>
+    </div>
+    <div class="f-custom_block">
+      <span>Fixed Header&nbsp; / &nbsp;Sticky Header</span>
+      <label class="switch">
+        <input type="checkbox" class="f-fixed_header">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <i id="f-selector_icon" class="fa fa-cog f-selector_icon"></i>
+  </div>
+  <div class="f-header">
+    <div class="f-header_strip">
+      <div class="container">
+        <div class="row">
+          <div class="pull-right f-address_switcher">
+            <div class="f-selected_add">
+              <span>New York</span>
+            </div>
+            <ul class="f-dropdown"> 
+                <li data-value="f-address_01">New York</li>
+                <li data-value="f-address_02">London</li>
+            </ul>
+          </div>  
+          <div class="pull-left f-address_listing">
+            <ul class="f-top_bar_info f-address_01" id="f-address_01">
+              <li>
+                <i class="fa fa-map-marker"></i>
+                <span>9378 Bridge Street Crystal Lake, IL 60014 </span>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <span><a href="tel:14008828215">1 (400) 882 82 15</a></span>
+              </li>
+              <li>
+                <i class="fa fa-envelope-o"></i>
+                <span><a href="mailto:fininvest@info.com">fininvest@info.com</a></span>
+              </li> 
+            </ul>
+            <ul class="f-top_bar_info f-address_02" id="f-address_02">
+              <li>
+                <i class="fa fa-map-marker"></i>
+                <span>26 Crown Street, LONDON </span>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <span><a href="tel:07700900388">0 (7700) 900388</a></span>
+              </li>
+              <li>
+                <i class="fa fa-envelope-o"></i>
+                <span><a href="mailto:fininvestlondon@info.com">fininvestlondon@info.com</a></span>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="f-header_bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 f-logo">
+            <a href="#"><img src="assets/images/logo_newyork.png" alt=""></a>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 f-nav_sec"> 
+            <div class="f-menu_toggle">
+              <i id="f-menu_toggle" class="fa fa-bars"></i>
+            </div>
+            <!-- Add Class f-nav_v2 FOR Version 2 -->
+            <div class="f-nav">
+              <nav>                                                            
+                <ul>
+                  <li class="f-has_child">
+                    <a href="index.html">Home</a>
+                    <ul> 
+                      <li><a href="../london/index.html">London</a></li>
+                      <li><a href="../new_york/index.html">New York</a></li>
+                      <li><a href="../zurich/index.html#">Zurich</a></li>
+                      <li><a href="../toronto/index.html">Toronto</a></li>
+                      <li><a href="../mumbai/index.html">Mumbai</a></li>
+                      <li><a href="../paris/index.html">Paris</a></li> 
+                    </ul>
+                  </li>
+                  <li class="f-has_child">
+                    <a href="about.html">About</a>
+                    <ul>
+                      <li><a href="team_page.html">Team Page</a></li>
+                      <li><a href="teammate_page.html">Teammate Page</a></li>
+                      <li><a href="careers.html">Careers</a></li> 
+                      <li><a href="company_history.html">Company History</a></li>
+                      <li><a href="our_partners.html">Our Partners</a></li> 
+                    </ul>
+                  </li>
+                  <li class="f-has_child">
+                    <a href="services.html">Services</a>
+                    <ul>
+                      <li><a href="services_details.html">Services Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="f-has_child f-active">
+                    <a href="case_study.html">Case study</a>
+                    <ul>
+                      <li><a href="case_study_grid.html">Case Study Grid</a></li>
+                      <li><a href="case_detail.html">Case Detail</a></li>
+                    </ul>
+                  </li>
+                  <li class="f-has_child">
+                    <a href="shop.html">Shop</a>
+                    <ul>
+                      <li><a href="shop_single.html">Shop detail</a></li>
+                    </ul>
+                  </li>
+                  <li class="f-has_child">
+                    <a href="#">Pages</a>
+                    <ul>
+                      <li><a href="typography.html">Typography</a></li>
+                      <li><a href="offline_page.html">Offline Page</a></li>
+                      <li><a href="coming_soon.html">Coming Soon</a></li>
+                    </ul> 
+                  </li>
+                  <li class="f-has_child">
+                    <a href="#">Blog</a>
+                    <ul>
+                      <li><a href="blog_grid_sidebar.html">Blog Grid Sidebar</a></li>
+                      <li><a href="blog_list_sidebar.html">Blog List Sidebar</a></li>
+                      <li><a href="blog_fullwidth.html">Blog Fullwidth</a></li>
+                      <li><a href="blog_details.html">Blog Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="f-has_child">
+                    <a href="contact_page.html">Contact</a>
+                    <ul>
+                      <li><a href="contact_page_01.html">Multiple Address</a></li> 
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Add Class f-search_v2 FOR Version 2 -->
+            <div class="f-search_box f-search_v2">
+              <div class="f-search_outer">
+                <form action="#" class="clearfix">
+                  <input type="text" placeholder="Type & hit enter">
+                  <button><i class="material-icons">search</i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="f-banner_title">
+      <img src="assets/images/banner_portfolio_detail.jpg" class="img-responsive" alt="">
+      <div class="f-inner_title container">
+        <div class="row">
+          <ul class="f-breadcrumbs">
+            <li><a href="#">Home</a></li>
+            <li><span>Case Study</span></li>
+          </ul>
+          <h1>Case Study</h1>
+        </div>
+      </div>
+    </div>
+  </div>   
+  <div id="f-portfolio_list">
+    <div class="f-portfolio_list f-section">
+      <div class="container">
+        <div class="row">
+          <ul class="f-portfolio-sorting list-inline text-center">
+            <li><a href="#" data-group="all" class="active">All</a></li>
+            <li><a href="#" data-group="f-office">Dollar Saving</a></li>
+            <li><a href="#" data-group="f-workpace">Mortgage Advisor</a></li>
+            <li><a href="#" data-group="f-developers">Financial Planning</a></li>
+          </ul> 
+        </div> 
+        <div class="f-portfolio-items" id="f-portfolio_grid" data-show="3"> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-office"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_01.jpg" alt="" class="img-responsive"> 
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 12 Feb 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How we helped one company's Thought-Leadership for Driving New Business</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Dollar Saving</span>
+              </div>
+            </div> 
+          </div>  
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-developers"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_02.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 04 March 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How Icebreaker Drove Holiday Sales With media marketing</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Financial Planning</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-workpace"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_03.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 19 Jan 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How Finvest Achieved a Whopping 60% increase in sale</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Mortgage Advisor</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-developers"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_04.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 27 May 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How a B2C company testing Increased Conversions 67%</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Financial Planning</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-workpace"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_05.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 21 June 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How a Small Company Went Global (Without Breaking the Bank)</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Mortgage Advisor</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-office"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_06.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 16 Apr 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How a New, Low-Cost Offline airline generated Surprisingly Stellar Results</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Dollar Saving</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-developers"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_07.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 01 June 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How a User-Focused Website Boosted Sales at Jelly</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Financial Planning</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-office"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_08.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 08 May 2016</span>
+                <a href="case_detail.html" class="f-hove_title">Case Study: How Low-Cost Conversation Starters Built Community, Generated Leads</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Dollar Saving</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-office"]' data-attr="1"> 
+            <img src="assets/images/portfolio_list_09.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 19 July 2016</span>
+                <a href="case_detail.html" class="f-hove_title">Our consultancy + Coffee = A Delicious Elixir for Customer Acquisition and Sales</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Dollar Saving</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-workpace"]' data-attr="0"> 
+            <img src="assets/images/portfolio_list_03.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 27 Jan 2016</span> 
+                <a href="case_detail.html" class="f-hove_title">Case Study: How an Interactive Game Stimulated Product Awareness and Sales</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Mortgage Advisor</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-developers"]' data-attr="0"> 
+            <img src="assets/images/portfolio_list_04.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 21 May 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How Finvest Achieved a Whopping 60% increase in sale</a> 
+                <span class="f-case_cat"><i class="material-icons">turned_in</i> Financial Planning</span>
+              </div>
+            </div> 
+          </div> 
+          <div class="col-md-4 col-sm-6 col-xs-12" data-groups='["f-workpace"]' data-attr="0"> 
+            <img src="assets/images/portfolio_list_05.jpg" alt="" class="img-responsive">  
+            <div class="f-portfolio_hover">
+              <div class="f-hover_inner"> 
+                <span class="f-case_time"><i class="material-icons">alarm_on</i> 23 Feb 2016</span>
+                <a href="case_detail.html" class="f-hove_title">How a B2C company testing Increased Conversions 67%</a><span class="f-case_cat"><i class="material-icons">turned_in</i> Mortgage Advisor</span>
+              </div>
+            </div> 
+          </div>
+        </div> 
+        <div class="clearfix text-center f-mt ">
+          <a class="f-primary_but" id="f-load_more" href="javascript:void(0)">Load More</a>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <section id="f-write_us">
+    <div class="f-write_us">
+      <div class="container">
+         <div class="row">
+           <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+              <h3>
+                Are you interested in cooperation? <strong>write to us!</strong>
+              </h3>
+              <p>if you think it's just you're looking for. Please contact us and show us your skills.</p>
+           </div>
+           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-right">
+              <a href="contact_page.html" class="f-secondary_but">Contact Us</a>
+           </div>
+         </div> 
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="f-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="f-single_foot">
+              <div class="f-section_head">
+                <span>Briefly</span>
+                <h2>About us</h2>
+              </div>
+              <p>
+                He was justified by the event; for the footpath soon after appeared a little <br>wider and more worn, and the tinkle of a small bell in the.
+              </p>
+              <a href="#" class="f-read_more">Read more</a>
+            </div>
+            <div class="clearfix row f-footer_half">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="f-single_foot">
+                  <div class="f-section_head">
+                    <span>Social</span>
+                    <h2>Follow us</h2>
+                  </div>
+                  <ul class="f-social">
+                    <li><a class="fa fa-facebook" href="#"></a></li>
+                    <li><a class="fa fa-twitter" href="#"></a></li>
+                    <li><a class="fa fa-google-plus" href="#"></a></li>
+                    <li><a class="fa fa-pinterest" href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="f-single_foot">
+                  <div class="f-section_head">
+                    <span>IN</span>
+                    <h2>Twitter</h2>
+                  </div>
+                  <div class="f-tweet">
+                    <span class="f-date">MAR 2016, 11</span> 
+                    <p>
+                      <strong>finvest</strong> @Someone_else <br>
+                      "For good, too; though, in conseq uence" <a href="#">#Business</a> <a href="#">#Finance</a> 
+                    </p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="f-single_foot">
+              <div class="f-section_head">
+                <span>have a question?</span>
+                <h2>get in touch</h2>
+              </div>
+            </div>
+            <form action="#">
+              <div class="clearfix f-half_input">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="E-mail">
+              </div>
+              <textarea placeholder="Message"></textarea>
+              <input type="submit" value="Send">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="f-footer_strip">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 pull-right f-footer_nav">
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="case_study.html">Case study</a></li>
+                <li><a href="team_page.html">Team</a></li>
+                <li><a href="blog_grid_sidebar.html">Blog</a></li>
+                <li><a href="contact_page.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <p>Copyright finvest © 2016. All right reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>       
+ </div>  
+ <div class="f-back_to_top" id="f-back_to_top">
+    <i class="material-icons">arrow_upward</i>
+ </div>
+ <!-- JQUERY:: JQUERY.JS -->
+ <script type="text/javascript" src="assets/js/jquery.min.js"></script>  
+
+ <!-- JQUERY:: COOKIE.JS -->
+ <script type="text/javascript" src="assets/js/cookie.js"></script>  
+ 
+ <!-- JQUERY:: BOOTSTRAP.JS --> 
+ <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+ <!-- JQUERY:: OWL.JS -->
+ <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>  
+
+ <!-- JQUERY:: COUNTER.JS -->
+ <script type="text/javascript" src="assets/js/jquery.counter.js"></script>
+
+ <!-- JQUERY:: PORTFOLIO SUFFLE.JS -->
+ <script type="text/javascript" src="assets/js/jquery.shuffle.min.js"></script>
+ <script type="text/javascript" src="assets/js/portfolio_grid.min.js"></script>
+
+ <!-- JQUERY:: CUSTOM.JS -->
+ <script type="text/javascript" src="assets/js/custom.js"></script> 
+ </body>
+</html> 	

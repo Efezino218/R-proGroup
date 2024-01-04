@@ -1,0 +1,159 @@
+/*
+COLORS
+*/
+$accent_color: #142440;
+$accent_color_hover: #081325;
+$accent_color_active: #005a83;
+$accent_color_visited: #8b32be;
+$primary_color: #2d2d2d; 
+$secondary_color: #4AC8ED;
+$secondary_color_hover: #209fc4;
+$secondary_color_visited: #b56d00;
+$heading_color: #39434e;
+$heading_color_lt: #747373;
+$secondary_bg: #edf7fa;
+$gray_light: #818080;
+
+
+
+/* Accent Color */
+a:hover{color: $accent_color;} 
+.mark, mark{background: $accent_color;}
+.f-header{ 
+	.f-nav{
+		li.f-has_child > ul{
+			li a:hover{color: $secondary_color;}
+			li a:before{background: $secondary_color;}
+		}
+		li.f-has_child > ul li.f-has_child:hover:after{color: $accent_color;}
+	}
+} 
+.f-portfolio-sorting a.active,.f-portfolio-sorting a:hover{background: $accent_color;}
+.f-accent_color{background: $accent_color;}
+.f-typo_links{.f-default_link{color: $accent_color;}}
+.f-header .f-nav li a:hover{color: $secondary_color;}
+.f-header .f-search_top i:hover{color: $accent_color;}
+.f-footer_nav a:hover{color: $accent_color;}
+.f-section_head h2::before{background: $accent_color;}
+.f-blog_single .f-blog_intro a.f-read_more{color: $accent_color;}
+.f-primary_but{background: $accent_color;}
+.f-single_serivce .f-service_inner:hover h4::after {background: $accent_color;}
+.f-blog_single .f-blog_tags a:hover{background: $accent_color;}
+.f-testimonial .owl-dots > div.active span,.f-portfolio .owl-dots > div.active span{background: $accent_color;}
+.f-skill_graph_bar > div{background: $accent_color;}
+.f-search_box .f-search_outer button{background: $accent_color;}
+.f-header .f-search_top i.f-search_toggle{color: $accent_color;}
+.f-search_box.f-search_v2 .f-search_outer{border-top-color: $accent_color;}
+.f-search_box.f-search_v2 .f-search_outer::before{border-bottom-color: $accent_color;}
+.f-header .f-nav li:hover > a{color: $secondary_color;}
+.f-special_offer .f-offer_text a{color: $accent_color;}
+.f-header .f-nav li.f-active a{color: $secondary_color;}
+.f-service_detail{p{u{color: $accent_color;}}}
+.f-service_detail article > a{color: $accent_color;}
+.f-link_but:hover{background: $accent_color; border-color: $accent_color;}
+.f-service_sidebar .f-side_single h5{ border-color: $accent_color;}
+.f-portfolio_detail li a{color: $accent_color;}
+.f-pagination a:hover,.f-pagination a.f-active_page,.f-blog_w_sidebar .f-blog_tags a:hover{background: $accent_color;}
+.f-blog_w_sidebar .f-sidebar_search button{background: $accent_color;}
+.f-blog_w_sidebar .f-custom_menu li.f-toggle_submenu.f-sub_menu > a,
+.f-blog_w_sidebar .f-custom_menu li.f-toggle_submenu.f-sub_menu:after{color: $accent_color;}
+.f-blog_w_sidebar .f-custom_menu li.f-toggle_submenu.f-sub_menu > a{border-color: $accent_color;}
+.f-blog_w_sidebar .f-recent_comment .f-single .f-comment_intro > div a{color: $accent_color;}
+.f-blog_page_grid .f-blog_single > a,
+.f-blog_full .f-blog_single > a{color: $accent_color;}
+.f-team_list .col-lg-3 .f-team_info span{color: $accent_color;}
+.f-offline_content,.f-coming_soon {form input[type="submit"]{background: $accent_color;}}
+.col-lg-3:hover{ 
+		.f-team_info{border-color: $accent_color;}
+}
+.f-contact_form form input[type="submit"]{background: $accent_color;}
+.f-blog_full .f-blog_single .f-blog_intro a.f-blog_title::before {background: $secondary_color;}
+.f-blog_full .f-blog_single .f-blog_intro a.f-blog_title:hover {color:  $secondary_color;}
+.f-blog_content .f-blog_tags a:hover {background: $accent_color;}
+.f-blog_share li a.fa-heart:hover{background: $accent_color; border-color: $accent_color;}
+.f-comment li > a{color: $accent_color;}
+.f-comment .f-comment_like i.fa:hover{color: $accent_color;}
+.f-tabs li.active a,.f-tabs li a:hover{color: $accent_color;}
+.f-tabs{border-color: $accent_color;}
+.f-tab_content .f-read_more{color: $accent_color;}
+.f-accord_single.f-active_accord .f-accord_title,.f-accordian .f-accord_title:hover{background: $accent_color; border-color: $accent_color;}
+.f-table_title{background: $accent_color;}
+a.f-link_active{background: $accent_color; border-color: $accent_color;}
+a.f-tag_hover{background: $accent_color;}
+.f-buttons .f-primary_color{background: $accent_color;}
+.f-social_top a{color: $accent_color;}
+
+/* Secondary */
+.f-portfolio{ .f-portfolio_listing{ .f-port_text{ a{color: $secondary_color;}} .f-port_text:before{background: $secondary_color;}}}
+.f-counter span.f-count_title{color: $secondary_color;}
+.f-single_serivce h4::after{background: $secondary_color;}
+.f-team_listing .f-team_intro span{color: $secondary_color;}
+.f-secondary_but{background: $secondary_color;}
+.f-blog_single .f-blog_intro a.f-blog_title::before{background: $secondary_color;}
+.f-contact p strong{color: $secondary_color;}
+.f-testimonial_single a.f-name::before{background: $secondary_color;}
+.f-icon i{border-color: $secondary_color;}
+.f-footer a.f-read_more{color: $secondary_color;}
+.f-tweet a{color: $secondary_color;}
+form input[type="submit"]:hover{background: $secondary_color; border-color: $secondary_color;}
+form {
+	input[type="text"]:focus,input[type="email"]:focus,input[type="search"]:focus,textarea:focus{border-color: $secondary_color;} 
+}
+.f-map a:hover{color: $secondary_color;}
+.f-write_us h3 strong{color: $secondary_color;}
+.f-portfolio_hover:before,.f-portfolio_hover:after{border-color: $secondary_color;}
+.f-portfolio_hover .f-hover_inner  {
+	a.f-hove_title:hover{color: $secondary_color;}
+	a.fa:hover,.f-glass_icon:hover{border-color: $secondary_color; color: $secondary_color;}
+}
+.f-blog_single .f-blog_intro a.f-blog_title:hover{color: $secondary_color;}	
+.f-countdown span.f-countd_val::after{background: $secondary_color;}	
+.f-comment_form form input[type="submit"]{border-color: $secondary_color; background: $secondary_color;}
+.f-portfolio_hover .f-hover_inner i:hover a{color: $secondary_color;}
+.f-buttons .f-secondary_color{background: $secondary_color;}
+.f-demo_switcher ul.f-dropdown_demo li:hover{background: $secondary_color;}
+.f-social_top{a:hover{background: $secondary_color;}}
+.f-top_bar_info{i,a:hover{color: $secondary_color;}}
+.f-slider span{color: $secondary_color;}
+
+
+.f-primary_but:hover,.f-primary_but:focus{background: $accent_color_hover;}
+.f-primary_but.disable{background: $accent_color_hover;}
+.f-buttons .f-primary_hover{background: $accent_color_hover} 
+
+.f-sec_bg_color{background: $secondary_bg;}
+.f-sec_color{background: $secondary_color;}
+.f-heading_color{background: $heading_color;}
+.f-primary_color{background: $primary_color;}
+.f-heading_color_lt{background: $heading_color_lt;}
+.f-gray_light{background: $gray_light;}
+
+.f-secondary_but:hover{background: $secondary_color_hover; }
+.f-buttons{.f-secondary_hover{background: $secondary_color_hover;}}
+
+.f-typo_links{ 
+	.f-hover_link{color: $accent_color_hover;}
+	.f-active_link{color: $accent_color_active;}
+	.f-visited_link{color: $accent_color_visited;}
+}
+
+.f-call_back_bg{form input[type="submit"]:hover{background: $accent_color_hover;}}
+
+.f-sec_links{
+	.f-default_link{color: $secondary_color;}
+	.f-hover_link{color: $secondary_color_hover;}
+	.f-active_link{color: $accent_color_active;}
+	.f-visited_link{color: $secondary_color_visited;}
+}
+
+.f-shop_intro .f-blog_tags a:hover{background: $accent_color;}
+.noUi-handle.noUi-handle-upper, .noUi-connect{background: $secondary_color;}
+.f-prod_detail_attr .f-add_cart:hover,.f-prod_detail_attr > div > i:hover,
+.f-prod_detail_attr .f-prod_counter span:hover{background: $secondary_color;}
+a.f-shop_title::before {background: $accent_color;} 
+
+h2.resp-accordion,.resp-vtabs ul.resp-tabs-list{background: $accent_color;}
+.resp-tab-active,h2.resp-tab-active{background: $secondary_color;}
+
+body{color:$primary_color;}
+a{color:$primary_color;}
