@@ -1887,11 +1887,12 @@ form .f-select-wrapper select {
   outline: none;
   opacity: 0;
   /* CSS hacks for older browsers */
-  _noFocusLine: expression(this.hideFocus=true);
+  /* _noFocusLine: expression(this.hideFocus=true);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   -khtml-opacity: 0;
-  -moz-opacity: 0; }
+  -moz-opacity: 0; */
+   }
 form option {
   padding: 5px; }
 
