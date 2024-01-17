@@ -1,0 +1,445 @@
+/*
+COLORS
+*/
+/* Accent Color */
+a:hover {
+  color: #ff0000;
+}
+
+.mark, mark {
+  background: #ff0000;
+}
+
+.f-header .f-nav li.f-has_child > ul li a:hover {
+  color: #4FD5D6;
+}
+.f-header .f-nav li.f-has_child > ul li a:before {
+  background: #4FD5D6;
+}
+.f-header .f-nav li.f-has_child > ul li.f-has_child:hover:after {
+  color: #ff0000;
+}
+
+.f-portfolio-sorting a.active, .f-portfolio-sorting a:hover {
+  background: #ff0000;
+}
+
+.f-accent_color {
+  background: #ff0000;
+}
+
+.f-typo_links .f-default_link {
+  color: #ff0000;
+}
+
+.f-header .f-nav li a:hover {
+  color: #4FD5D6;
+}
+
+.f-header .f-search_top i:hover {
+  color: #ff0000;
+}
+
+.f-footer_nav a:hover {
+  color: #ff0000;
+}
+
+.f-section_head h2::before {
+  background: #ff0000;
+}
+
+.f-blog_single .f-blog_intro a.f-read_more {
+  color: #ff0000;
+}
+
+.f-primary_but {
+  background: #ff0000;
+}
+
+.f-single_serivce .f-service_inner:hover h4::after {
+  background: #ff0000;
+}
+
+.f-blog_single .f-blog_tags a:hover {
+  background: #ff0000;
+}
+
+.f-testimonial .owl-dots > div.active span, .f-portfolio .owl-dots > div.active span {
+  background: #ff0000;
+}
+
+.f-skill_graph_bar > div {
+  background: #ff0000;
+}
+
+.f-search_box .f-search_outer button {
+  background: #ff0000;
+}
+
+.f-header .f-search_top i.f-search_toggle {
+  color: #ff0000;
+}
+
+.f-search_box.f-search_v2 .f-search_outer {
+  border-top-color: #ff0000;
+}
+
+.f-search_box.f-search_v2 .f-search_outer::before {
+  border-bottom-color: #ff0000;
+}
+
+.f-header .f-nav li:hover > a {
+  color: #4FD5D6;
+}
+
+.f-special_offer .f-offer_text a {
+  color: #ff0000;
+}
+
+.f-header .f-nav li.f-active a {
+  color: #4FD5D6;
+}
+
+.f-service_detail p u {
+  color: #ff0000;
+}
+
+.f-service_detail article > a {
+  color: #ff0000;
+}
+
+.f-link_but:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+}
+
+.f-service_sidebar .f-side_single h5 {
+  border-color: #ff0000;
+}
+
+.f-portfolio_detail li a {
+  color: #ff0000;
+}
+
+.f-pagination a:hover, .f-pagination a.f-active_page, .f-blog_w_sidebar .f-blog_tags a:hover {
+  background: #ff0000;
+}
+
+.f-blog_w_sidebar .f-sidebar_search button {
+  background: #ff0000;
+}
+
+.f-blog_w_sidebar .f-custom_menu li.f-toggle_submenu.f-sub_menu > a,
+.f-blog_w_sidebar .f-custom_menu li.f-toggle_submenu.f-sub_menu:after {
+  color: #ff0000;
+}
+
+.f-blog_w_sidebar .f-custom_menu li.f-toggle_submenu.f-sub_menu > a {
+  border-color: #ff0000;
+}
+
+.f-blog_w_sidebar .f-recent_comment .f-single .f-comment_intro > div a {
+  color: #ff0000;
+}
+
+.f-blog_page_grid .f-blog_single > a,
+.f-blog_full .f-blog_single > a {
+  color: #ff0000;
+}
+
+.f-team_list .col-lg-3 .f-team_info span {
+  color: #ff0000;
+}
+
+.f-offline_content form input[type=submit], .f-coming_soon form input[type=submit] {
+  background: #ff0000;
+}
+
+.col-lg-3:hover .f-team_info {
+  border-color: #ff0000;
+}
+
+.f-contact_form form input[type=submit] {
+  background: #ff0000;
+}
+
+.f-blog_full .f-blog_single .f-blog_intro a.f-blog_title::before {
+  background: #4FD5D6;
+}
+
+.f-blog_full .f-blog_single .f-blog_intro a.f-blog_title:hover {
+  color: #4FD5D6;
+}
+
+.f-blog_content .f-blog_tags a:hover {
+  background: #ff0000;
+}
+
+.f-blog_share li a.fa-heart:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+}
+
+.f-comment li > a {
+  color: #ff0000;
+}
+
+.f-comment .f-comment_like i.fa:hover {
+  color: #ff0000;
+}
+
+.f-tabs li.active a, .f-tabs li a:hover {
+  color: #ff0000;
+}
+
+.f-tabs {
+  border-color: #ff0000;
+}
+
+.f-tab_content .f-read_more {
+  color: #ff0000;
+}
+
+.f-accord_single.f-active_accord .f-accord_title, .f-accordian .f-accord_title:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+}
+
+.f-table_title {
+  background: #ff0000;
+}
+
+a.f-link_active {
+  background: #ff0000;
+  border-color: #ff0000;
+}
+
+a.f-tag_hover {
+  background: #ff0000;
+}
+
+.f-buttons .f-primary_color {
+  background: #ff0000;
+}
+
+.f-social_top a {
+  color: #ff0000;
+}
+
+/* Secondary */
+.f-portfolio .f-portfolio_listing .f-port_text a {
+  color: #4FD5D6;
+}
+.f-portfolio .f-portfolio_listing .f-port_text:before {
+  background: #4FD5D6;
+}
+
+.f-counter span.f-count_title {
+  color: #4FD5D6;
+}
+
+.f-single_serivce h4::after {
+  background: #4FD5D6;
+}
+
+.f-team_listing .f-team_intro span {
+  color: #4FD5D6;
+}
+
+.f-secondary_but {
+  background: #4FD5D6;
+}
+
+.f-blog_single .f-blog_intro a.f-blog_title::before {
+  background: #4FD5D6;
+}
+
+.f-contact p strong {
+  color: #4FD5D6;
+}
+
+.f-testimonial_single a.f-name::before {
+  background: #4FD5D6;
+}
+
+.f-icon i {
+  border-color: #4FD5D6;
+}
+
+.f-footer a.f-read_more {
+  color: #4FD5D6;
+}
+
+.f-tweet a {
+  color: #4FD5D6;
+}
+
+form input[type=submit]:hover {
+  background: #4FD5D6;
+  border-color: #4FD5D6;
+}
+
+form input[type=text]:focus, form input[type=email]:focus, form input[type=search]:focus, form textarea:focus {
+  border-color: #4FD5D6;
+}
+
+.f-map a:hover {
+  color: #4FD5D6;
+}
+
+.f-write_us h3 strong {
+  color: #4FD5D6;
+}
+
+.f-portfolio_hover:before, .f-portfolio_hover:after {
+  border-color: #4FD5D6;
+}
+
+.f-portfolio_hover .f-hover_inner a.f-hove_title:hover {
+  color: #4FD5D6;
+}
+.f-portfolio_hover .f-hover_inner a.fa:hover, .f-portfolio_hover .f-hover_inner .f-glass_icon:hover {
+  border-color: #4FD5D6;
+  color: #4FD5D6;
+}
+
+.f-blog_single .f-blog_intro a.f-blog_title:hover {
+  color: #4FD5D6;
+}
+
+.f-countdown span.f-countd_val::after {
+  background: #4FD5D6;
+}
+
+.f-comment_form form input[type=submit] {
+  border-color: #4FD5D6;
+  background: #4FD5D6;
+}
+
+.f-portfolio_hover .f-hover_inner i:hover a {
+  color: #4FD5D6;
+}
+
+.f-buttons .f-secondary_color {
+  background: #4FD5D6;
+}
+
+.f-demo_switcher ul.f-dropdown_demo li:hover {
+  background: #4FD5D6;
+}
+
+.f-social_top a:hover {
+  background: #4FD5D6;
+}
+
+.f-top_bar_info i, .f-top_bar_info a:hover {
+  color: #4FD5D6;
+}
+
+.f-slider span {
+  color: #4FD5D6;
+}
+
+.f-primary_but:hover, .f-primary_but:focus {
+  background: #b80000;
+}
+
+.f-primary_but.disable {
+  background: #b80000;
+}
+
+.f-buttons .f-primary_hover {
+  background: #b80000;
+}
+
+.f-sec_bg_color {
+  background: #edf7fa;
+}
+
+.f-sec_color {
+  background: #4FD5D6;
+}
+
+.f-heading_color {
+  background: #39434e;
+}
+
+.f-primary_color {
+  background: #4D4D4D;
+}
+
+.f-heading_color_lt {
+  background: #747373;
+}
+
+.f-gray_light {
+  background: #bab9b9;
+}
+
+.f-secondary_but:hover {
+  background: #17adae;
+}
+
+.f-buttons .f-secondary_hover {
+  background: #17adae;
+}
+
+.f-typo_links .f-hover_link {
+  color: #b80000;
+}
+.f-typo_links .f-active_link {
+  color: #005a83;
+}
+.f-typo_links .f-visited_link {
+  color: #8b32be;
+}
+
+.f-call_back_bg form input[type=submit]:hover {
+  background: #b80000;
+}
+
+.f-sec_links .f-default_link {
+  color: #4FD5D6;
+}
+.f-sec_links .f-hover_link {
+  color: #17adae;
+}
+.f-sec_links .f-active_link {
+  color: #005a83;
+}
+.f-sec_links .f-visited_link {
+  color: #b56d00;
+}
+
+.f-shop_intro .f-blog_tags a:hover {
+  background: #ff0000;
+}
+
+.noUi-handle.noUi-handle-upper, .noUi-connect {
+  background: #4FD5D6;
+}
+
+.f-prod_detail_attr .f-add_cart:hover, .f-prod_detail_attr > div > i:hover,
+.f-prod_detail_attr .f-prod_counter span:hover {
+  background: #4FD5D6;
+}
+
+a.f-shop_title::before {
+  background: #ff0000;
+}
+
+h2.resp-accordion, .resp-vtabs ul.resp-tabs-list {
+  background: #ff0000;
+}
+
+.resp-tab-active, h2.resp-tab-active {
+  background: #4FD5D6;
+}
+
+body {
+  color: #4D4D4D;
+}
+
+a {
+  color: #4D4D4D;
+}/*# sourceMappingURL=color_06.css.map */
