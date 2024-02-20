@@ -407,7 +407,7 @@ HEADER
 .f-header {
   position: relative; }
   .f-header .f-logo {
-    padding: 30px 0 0px; }
+    padding: 10px 0 0px; }
     .f-header .f-logo a {
       display: inline-block; }
   .f-header .f-header_bar {
@@ -561,14 +561,17 @@ HEADER
     .f-search_box.f-search_v2 .f-search_outer input {
       border: 1px solid #c5c5c5;
       border-right: none; }
-
+h1 span.wel-home {
+  font-size: 26px; 
+  color:#ffffff;
+}
 .f-slider {
   position: relative; }
   .f-slider .f-slide_text {
     position: absolute;
     left: 0;
     right: 0;
-    top: 40%; }
+    top: 40%;}
   .f-slider h1 {
     font-size: 50px;
     text-transform: uppercase;
@@ -757,7 +760,7 @@ ul.f-dropdown {
   .f-header .f-search_top, .f-header .f-logo {
     padding-top: 0; }
   .f-header .f-header_bar {
-    padding: 30px 0; }
+    padding: 10px 0; }
 
   .f-slider h1 {
     font-size: 40px;
@@ -1554,7 +1557,7 @@ HOME PAGE
       margin-bottom: 15px; } }
 /* Testimonial */
 .f-testimonial {
-  background-image: url("../images/R-pro\ Testimonials.png");
+  background-image: url("../images/banner_company_history.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   position: relative; }
@@ -1587,7 +1590,7 @@ HOME PAGE
 
 .f-testimonial:after, .f-map:after {
   content: "";
-  background: rgba(34, 46, 57, 0.9) none repeat scroll 0 0;
+  background: rgba(34, 46, 57, 0.975) none repeat scroll 0 0;
   height: 100%;
   width: 100%;
   top: 0;
@@ -2120,15 +2123,20 @@ SERVICES PAGE
   .f-write_us p {
     margin-bottom: 10px; }
   .f-write_us .text-right {
-    text-align: center; } }
+    text-align: center; } 
+  img.logo-group {
+    width: 50px;
+  }
+}
 /*
 ABOUT
 */
 .f-counter_outer {
   padding: 90px 0;
   position: relative;
-  background: url("../images/counter_bg.jpg") no-repeat;
+  background: url("../images/banner_team_page.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   background-attachment: fixed; }
   .f-counter_outer .f-counter {
     margin-top: 0; }
@@ -3047,7 +3055,10 @@ OFFLINE PAGE
     text-align: center; }
     .f-offline_content form input[type="text"], .f-coming_soon_content form input[type="text"] {
       display: inline-block;
-      float: none; } }
+      float: none; } 
+      .f-top_bar_info li:first-child {
+        display: none;
+      }}
 /*
 COMING SOON
 */
@@ -3507,5 +3518,12 @@ COMPANY HISTORY
   .f-product_filters {
     margin-bottom: 50px;
     max-width: 100%; } }
+
+
+    @media (max-width: 389px) { 
+      h1 span.wel-home {
+        font-size: 18px;
+      }
+    }
 
 /*# sourceMappingURL=main_one.css.map */
