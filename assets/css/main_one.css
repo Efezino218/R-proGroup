@@ -177,7 +177,7 @@ abbr[data-original-title], abbr[title] {
     position: relative;
     color: #2d2d2d;
     font-weight: 800;
-    text-transform: uppercase; }
+   }
   .f-section_head h2:before {
     content: "";
     display: inline-block;
@@ -2025,9 +2025,17 @@ SERVICES PAGE
   top: 0;
   left: 0; }
 .f-special_offer .f-offer_text {
-  margin-top: 30px; }
+  margin-top: 30px; 
+  margin-bottom: 30px;}
+  .f-offer_text button{
+    padding: 10px;
+    background-color: #09082128;
+    border: none;
+    outline: none;
+  }
   .f-special_offer .f-offer_text h4 {
-    font-size: 15px; }
+    font-size: 15px; 
+    margin-bottom: 18px;}
     .f-special_offer .f-offer_text h4 img {
       max-width: 20px;
       position: relative;
@@ -2035,7 +2043,7 @@ SERVICES PAGE
       top: -2px; }
   .f-special_offer .f-offer_text p {
     max-width: 266px;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 20px; }
   .f-special_offer .f-offer_text a {
     font-weight: bold;
