@@ -363,9 +363,7 @@ abbr[data-original-title], abbr[title] {
 .f-stickey.f-scroll .f-header .f-logo {
   padding-top: 10px; }
 
-  img.logo-group {
-    width: 100px;
-  }
+
 
 .f-loading {
   background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
@@ -683,8 +681,6 @@ ul.f-dropdown {
     padding-top: 18px;
     padding-bottom: 18px; } }
 @media (min-width: 1024px) and (max-width: 1199px) {
-  .f-header .f-nav ul li {
-    padding: 64px 15px; }
   .f-header .f-nav li.f-has_child > ul {
     max-width: 180px;
     margin-left: -60px; }
@@ -696,7 +692,8 @@ ul.f-dropdown {
 
   .f-slider h1 {
     font-size: 60px;
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+   }
 @media (max-width: 1023px) {
   .f-menu_toggle {
     display: block;
@@ -2162,7 +2159,7 @@ SERVICES PAGE
   .f-write_us .text-right {
     text-align: center; } 
   img.logo-group {
-    width: 50px;
+    width: 100px;
   }
 }
 /*

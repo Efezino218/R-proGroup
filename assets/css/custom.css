@@ -356,6 +356,14 @@ a.button-collapse.top-nav {
 .row {
   margin-left: -15px;
   margin-right: -15px; }
+  #toggle {
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 767px) {
+    #toggle {
+    align-items: inherit;
+  }}
 
 .clearfix:after {
   content: "";
