@@ -606,11 +606,7 @@ h1 span.wel-home {
     color: #090821;
     font-size: 12px;
     text-transform: uppercase; }
-  .f-top_bar_info li:after {
-    content: "|";
-    display: inline-block;
-    margin: 0 20px;
-    color: #999999; }
+
   .f-top_bar_info li:last-child:after {
     display: none; }
   .f-top_bar_info a {
