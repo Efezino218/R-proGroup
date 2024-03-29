@@ -2066,7 +2066,8 @@ SERVICES PAGE
   .f-special_offer .f-offer_text p {
     max-width: 266px;
     margin-top: 0;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: justify; }
   .f-special_offer .f-offer_text a {
     font-weight: bold;
     text-transform: uppercase; }
