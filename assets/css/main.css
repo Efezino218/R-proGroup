@@ -966,6 +966,10 @@ HEADER
     text-align: center;
   }
 
+  img.logo-group {
+    width: 60px;
+  }
+
   .f-header .f-header_bar {
     position: static;
     background: #000000;
@@ -2383,12 +2387,6 @@ FOOTER
   cursor: pointer;
   outline: none;
   opacity: 0;
-  /* CSS hacks for older browsers */
-  _noFocusLine: expression(this.hideFocus=true);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  -khtml-opacity: 0;
-  -moz-opacity: 0;
 }
 
 .f-footer_half {
@@ -4294,13 +4292,6 @@ SHOP
   color: #212121;
 }
 
-.f-product_filters,
-.f-login_popup {
-  /* Base for label styling */
-  /* checkbox aspect */
-  /* checked mark aspect */
-  /* checked mark aspect changes */
-}
 
 .f-product_filters [type="checkbox"]:not(:checked),
 .f-product_filters [type="checkbox"]:checked,
