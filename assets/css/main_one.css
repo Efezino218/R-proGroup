@@ -1009,11 +1009,12 @@ ul.f-dropdown li:hover {
   }
 
   .f-header .f-nav ul li.f-has_child:after {
-    content: "\f067";
+    content: "\f107";
     position: absolute;
     right: 20px;
     top: 10px;
     color: #FFFFFF;
+    font-size: 18px;
     font-family: FontAwesome;
   }
 
