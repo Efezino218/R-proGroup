@@ -660,7 +660,7 @@ HEADER
 }
 
 .f-header .f-nav li.f-has_child>ul li.f-has_child:after {
-  content: "\f105";
+  content: "\f107";
   font-family: "FontAwesome";
   font-size: 26px;
   position: absolute;
